@@ -1,0 +1,9 @@
+battery 0
+pressure 1
+umbrella 2
+OCbottle 3
+glassbottle 4
+lighter 5
+electronicequipment 6
+knife 7
+metalbottle 8
