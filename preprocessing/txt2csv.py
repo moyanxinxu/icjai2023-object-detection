@@ -5,7 +5,7 @@ import pandas as pd
 train_txt_folder = "../datasets/train/annotations"
 test_img_folder = "../datasets/test/images"
 
-txt2csv = '../info/data.csv'
+txt2csv = '../info/datasets.csv'
 label2id = '../info/label2id.txt'
 
 columns = ["file_name", "category", "xmin", "ymin", "xmax", "ymax"]  # dataframe的索引列表

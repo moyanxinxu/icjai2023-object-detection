@@ -3,8 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch import Tensor
 
-from l2norm import L2Norm
-from utils import PriorBox
+from utils.l2norm import L2Norm
+from utils.priorbox import PriorBox
 from vgg import vgg16
 
 
