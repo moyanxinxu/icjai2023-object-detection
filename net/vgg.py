@@ -4,8 +4,7 @@ import torch.nn as nn
 def vgg16(batch_norm=False):
     layers = []
     in_channels = 3
-    cfg = [64, 64, 'M', 128, 128, 'M', 256, 256,
-           256, 'C', 512, 512, 512, 'M', 512, 512, 512]
+    cfg = [64, 64, 'M', 128, 128, 'M', 256, 256, 256, 'C', 512, 512, 512, 'M', 512, 512, 512]
 
     for v in cfg:
         if v == 'M':

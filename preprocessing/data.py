@@ -6,9 +6,9 @@ import torchvision.transforms as aug
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader
 
-train_img_folder = '../datasets/train/images'
-test_img_folder = '../datasets/test/images'
-data_csv_path = '../info/datasets.csv'
+train_img_folder = './datasets/train/images'
+test_img_folder = './datasets/test/images'
+data_csv_path = './info/datasets.csv'
 
 
 def read_train_data_xray():
